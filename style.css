@@ -8,10 +8,12 @@ body {
   grid-template-rows: 1fr 10rem auto;
   grid-template-areas: "main" "." "footer";
   overflow-x: hidden;
-  background: #F5F7FA;
+  background: #141414;
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
 }
+
+
 body .footer {
   z-index: 1;
   --footer-background:#735eb8;
@@ -121,8 +123,20 @@ body .footer .content > div .image {
   display: flex;
 }
 
-#logo{
+#logo img{
+  width: 80px;
   padding-left: 5vh;
+}
+
+
+
+#cart{
+  font-size: 3vh;
+  transition: 0.6s;
+}
+
+#cartNavbar a:hover i{
+  color: #4b2eb4;
 }
 
 #NLogo{
@@ -131,6 +145,8 @@ body .footer .content > div .image {
   display: flex;
   align-items: center;
 color: #FFF;
+text-decoration: none;
+transition: 0.6s;
 }
 
 header{
@@ -261,7 +277,7 @@ i {
 
 .card-image > i {
   font-size: 6em;
-  opacity: 0.25;
+  opacity: 0.35;
 }
 
 .card-info-wrapper {
@@ -294,8 +310,6 @@ i {
   font-size: 0.85em;
   margin-top: 8px;
 }
-
-/* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
 @media(max-width: 1000px) {
   body {
@@ -351,51 +365,9 @@ i {
   }
 }
 
-/* -- ↓ ↓ ↓ YouTube link styles ↓ ↓ ↓ -- */
-
-#youtube-link {
-  bottom: 10px;
-}
-
-#youtube-link > i {
-  color: rgb(239, 83, 80);
-}
-
-#source-link {
-  bottom: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-.link {
-  align-items: center;
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;  
-  display: inline-flex;
-  gap: 5px;
-  left: 10px;
-  padding: 10px 20px;
-  position: fixed;
-  text-decoration: none;
-  z-index: 100;
-}
-
-.link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.link > i, .link > span {
-  height: 20px;
-  line-height: 20px;
-}
-
-.link > span {
-  color: white;
+#titulo{
+  padding: 40px;
+  text-align: center;
+  font-size: 8vh;
+  font-weight: 700;
 }
