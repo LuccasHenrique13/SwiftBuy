@@ -24,10 +24,24 @@
 
 
       <ul>
+        <li>
+          <div class="group">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+              <g>
+                <path
+                  d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                </path>
+              </g>
+            </svg>
+            <input placeholder="Pesquisar..." type="search" class="input">
+          </div>
+        </li>
         <li><a class="navbarButton" href="#">HOME</a></li>
         <li><a class="navbarButton" href="#">CATEGORIAS</a></li>
         <li><a class="navbarButton" href="#">SUPORTE</a></li>
         <li><a class="navbarButton" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a class="navbarButton" href="#"><i class="fa-solid fa-user"></i></a></li>
+
       </ul>
     </header>
 
@@ -221,7 +235,7 @@
 
 
 
-    <h1 id="titulo">Produtos</h1>
+    <h1 id="titulo">Produtos com Descontos</h1>
     <div class="product-cards">
       <div class="grid">
         <div class="card-item">
@@ -740,26 +754,30 @@
         style="--size:5.162348607673869rem; --distance:7.930595777220944rem; --position:31.172925081832283%; --time:2.711183895043397s; --delay:-3.659122909859847s;">
       </div>
     </div>
-    <div class="content">
-      <div>
 
+    <div class="content">
+      <div class="logo">
+        <img id="imgFooter" src="./assets/logo.png" alt="SwiftBuy">
       </div>
-      <!-- <div><a class="image" href="https://codepen.io/z-" target="_blank" style="background-image: url(&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg&quot;)"></a>
-      <p>©2019 Not Really</p> -->
+      <div class="social-icons">
+        <a href="https://twitter.com/#" target="_blank"><i id="socials" class="fa-brands fa-twitter"></i> Twitter</a>
+        <a href="https://instagram.com/#" target="_blank"><i id="socials"
+            class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="https://facebook.com/#" target="_blank"><i id="socials"
+            class="fa-brands fa-facebook-f"></i> Facebook</a>
+      </div>
+      <div class="contact-info">
+        <p>Telefone: (XX) XXXX-XXXX</p>
+        <p>Email: contato@swiftbuy.com</p>
+      </div>
+
+
+      <div class="copyright">
+        <p>&copy; 2023 SwiftBuy. Todos os direitos reservados.</p>
+      </div>
     </div>
   </div>
   </div>
-  <svg style="position:fixed; top:100vh">
-    <defs>
-      <filter id="blob">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
-        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob">
-        </feColorMatrix>
-        <!--feComposite(in="SourceGraphic" in2="blob" operator="atop") //After reviewing this after years I can't remember why I added this but it isn't necessary for the blob effect-->
-      </filter>
-    </defs>
-  </svg>
-  <!-- partial -->
 
 
   <script src="script.js"></script>
