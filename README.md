@@ -1,5 +1,5 @@
 # SwiftBuy
-Projeto para estudos de animações.
+Projeto para estudos de animações.\n
 SwiftBuy é um aplicativo de compras online que oferece uma variedade de produtos em diferentes categorias. Os usuários podem explorar produtos, pesquisar itens específicos e fazer compras de forma conveniente.
 
 ## Funcionalidades
