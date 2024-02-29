@@ -11,7 +11,7 @@ Detalhes do Produto: Cada produto exibe informações detalhadas, incluindo imag
 Carrinho de Compras: Os usuários podem adicionar produtos ao carrinho e finalizar a compra.
 
 ## Instalação
-Clone este repositório: git clone https://github.com/seu-usuario/swiftbuy.git
+Clone este repositório: git clone [https://github.com/seu-usuario/swiftbuy.git](https://github.com/LuccasHenrique13/SwiftBuy.git)
 Navegue até o diretório do projeto: cd swiftbuy
 Instale as dependências: npm install
 Inicie o aplicativo: npm start
