@@ -9,13 +9,13 @@ Categorias: O aplicativo oferece várias categorias, como “Computadores e Peri
 Detalhes do Produto: Cada produto exibe informações detalhadas, incluindo imagens, descrição e preço.
 Carrinho de Compras: Os usuários podem adicionar produtos ao carrinho e finalizar a compra.
 
-##Instalação
+## Instalação
 Clone este repositório: git clone https://github.com/seu-usuario/swiftbuy.git
 Navegue até o diretório do projeto: cd swiftbuy
 Instale as dependências: npm install
 Inicie o aplicativo: npm start
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 HTML
 CSS 
 JavaScript
