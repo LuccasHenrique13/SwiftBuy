@@ -13,14 +13,9 @@ SwiftBuy é um aplicativo de compras online que oferece uma variedade de produto
 
 -Carrinho de Compras: Os usuários podem adicionar produtos ao carrinho e finalizar a compra.
 
-## Instalação
--Clone este repositório: git clone [https://github.com/seu-usuario/swiftbuy.git](https://github.com/LuccasHenrique13/SwiftBuy.git)
+## Como Usar
 
--Navegue até o diretório do projeto: cd swiftbuy
-
--Instale as dependências: npm install
-
--Inicie o aplicativo: npm start
+Para visualizar o site, abra o arquivo `index.html` em seu navegador.
 
 ## Tecnologias Utilizadas
 -HTML
